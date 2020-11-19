@@ -48,6 +48,11 @@ body {
 
  .definicion>p, .popup>p {
   display: inline;
+  font-size: 1.2em;
+}
+
+.definicion ol {
+  color: rgb(196, 196, 196);  
 }
 
  .logo {
@@ -63,27 +68,18 @@ body {
 
 /* unvisited link */
 .logo>a:link {
-    color: rgb(94,94,94);
-  }
-  
-  /* visited link */
-  .logo>a:visited {
-    color: rgb(94,94,94);
-  }
-  
-  /* mouse over link */
-  .logo>a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  .logo>a:active {
-    color: blue;
-  }
+  color: rgb(94,94,94);
+}
 
+/* visited link */
+.logo>a:visited {
+  color: rgb(94,94,94);
+}
 
-
-
+/* mouse over link */
+.logo>a:hover {
+  color: rgb(196, 196, 196);
+}
 
 
 
